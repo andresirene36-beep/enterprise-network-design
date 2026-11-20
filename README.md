@@ -2,9 +2,11 @@
 
 ## 1. Project Overview
 
-This project involves the design, configuration, and implementation of an enterprise network infrastructure using Cisco networking devices in GNS3.
+This project involves the design, configuration, and implementation of an enterprise network infrastructure using Cisco networking devices in a GNS3 lab environment.
 
-The network is designed to support different departments within an organization through network segmentation, inter-VLAN communication, centralized services, redundancy, and access control.
+The network is designed to support different departments within an organization through VLAN-based segmentation, inter-VLAN routing, centralized network services, gateway redundancy, NAT/PAT, and access control.
+
+The project demonstrates practical network engineering concepts, configuration, testing, and troubleshooting.
 
 ## 2. Project Objectives
 
@@ -14,29 +16,33 @@ The network is designed to support different departments within an organization 
 - Implement gateway redundancy using HSRP.
 - Configure centralized DHCP and DNS services.
 - Implement NAT/PAT for external network access.
+- Configure static SSH port forwarding for remote device access.
 - Apply Access Control Lists (ACLs) to control network traffic.
 - Verify network connectivity and troubleshoot network issues.
 
 ## 3. Technologies and Tools
 
-- GNS3 – Network simulation and lab environment.
+- GNS3 – Network lab environment.
 - Cisco IOSv Routers.
 - Cisco IOSvL2 Switches.
 - Ubuntu Server.
 - Kea DHCP Server.
 - BIND9 DNS Server.
 - Linux networking tools.
+- SSH for remote device administration.
 
 ## 4. Network Features
 
 - VLAN segmentation.
-- 802.1Q trunking.
+- IEEE 802.1Q trunking.
 - Spanning Tree Protocol (STP).
 - Inter-VLAN routing.
-- HSRP gateway redundancy.
-- DHCP and DNS services.
-- NAT/PAT.
+- HSRP gateway redundancy and failover.
+- Centralized DHCP and DNS services.
+- NAT/PAT overload.
+- Static SSH port forwarding.
 - ACL-based traffic filtering.
+- Network connectivity testing and troubleshooting.
 
 ## 5. Ubuntu Server Configuration and Services
 
@@ -63,7 +69,8 @@ Configuration file: `configs/server/network/00-installer-config.yaml`
 Kea DHCPv4 is configured to provide automatic IP address allocation to client devices across the enterprise VLANs.
 
 The configuration includes:
-- DHCP address pools for VLANs 10, 20, 30, 40, 50 and 60.
+
+- DHCP address pools for VLANs 10, 20, 30, 40, 50, and 60.
 - Default gateway information for each VLAN.
 - DNS server and domain information.
 - DHCP relay support for remote VLANs.
@@ -75,9 +82,10 @@ Configuration file: `configs/server/dhcp/kea-dhcp4.conf`
 BIND9 is configured to provide centralized DNS resolution.
 
 The DNS configuration includes:
+
 - Forward lookup zone: `company.test`
 - Reverse lookup zone: `50.168.192.in-addr.arpa`
-- DNS records for internal network devices.
+- Internal DNS records.
 - DNS forwarding to external DNS resolvers.
 
 Configuration files are located in `configs/server/dns/`.
@@ -92,7 +100,9 @@ The Ubuntu Server configuration files are organized as follows:
 
 ## 6. Network Architecture
 
-The network consists of two routers, two Layer 2 switches, an Ubuntu server, and end devices distributed across multiple VLANs.
+The network consists of two Cisco routers, two Layer 2 switches, an Ubuntu Server, and end devices distributed across six VLANs.
+
+The routers provide inter-VLAN routing, HSRP gateway redundancy, NAT/PAT, and traffic filtering. The switches provide VLAN segmentation and trunk connectivity.
 
 ### Network Topology
 
@@ -102,8 +112,33 @@ The following diagram illustrates the enterprise network architecture, including
 
 ## 7. Project Documentation
 
-Detailed network design, configurations, testing evidence, and troubleshooting records are organized in the respective project directories.
+Detailed project documentation is organized as follows:
+
+- [Network Design](docs/network-design.md)
+- [Project Requirements](docs/requirements.md)
+- [VLAN and IP Addressing Plan](docs/vlan-ip-addressing.md)
+- [Security Policy](docs/security-policy.md)
+- [Network Testing and Verification Results](docs/test-results.md)
+
+Additional resources:
+
+- `configs/` – Router, switch, and Ubuntu Server configuration backups.
+- `diagrams/` – Network topology diagrams.
+- `evidence/` – Testing screenshots and verification evidence.
+- `troubleshooting/` – Troubleshooting records and solutions.
 
 ## 8. Project Status
 
-Network implementation and verification are documented progressively as part of this engineering portfolio.
+The enterprise network infrastructure has been implemented and tested in the GNS3 lab environment.
+
+Verified functionality includes:
+
+- VLAN configuration and trunk connectivity.
+- Inter-VLAN routing.
+- HSRP gateway redundancy and failover.
+- Centralized DHCP and DNS services.
+- NAT/PAT and static SSH port forwarding.
+- ACL configuration and connectivity testing across all six VLANs.
+
+Web server deployment and HTTP service testing have not yet been implemented.
+
