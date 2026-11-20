@@ -1,0 +1,17 @@
+$TTL 86400
+
+@     IN       SOA     ns1.company.test.        irene.company.test. (
+              2026102101    ; serial
+                3600        ; refresh
+                1800        ; retry
+                86400       ; expire
+                86400       ; negative cache ttl
+                )
+
+@      IN      NS       ns1.company.test.
+
+
+;devices in reverse lookup dns
+
+10     IN      PTR       ns1.company.test.
+20     IN      PTR       www.company.test.

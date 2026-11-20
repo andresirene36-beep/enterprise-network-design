@@ -1,0 +1,18 @@
+$TTL 86400
+
+@      IN      SOA        ns1.company.test.        irene.company.test. (
+
+             2026100201   ; serial
+              3600        ; refresh
+              1800        ; retry
+              86400       ; expire
+              86400       ; negative cache ttl
+             )
+
+@      IN       NS        ns1.company.test.
+
+;adding devices 
+
+ns1    IN     A     192.168.50.10
+www    IN     A     192.168.50.20
+

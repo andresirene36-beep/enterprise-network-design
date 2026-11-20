@@ -1,0 +1,12 @@
+//
+// Do any local configuration here
+//
+zone "company.test" {
+type master;
+file "/etc/bind/db.company.test";
+};
+
+zone "50.168.192.in-addr.arpa" {
+type master;
+file "/etc/bind/db.192";
+};
