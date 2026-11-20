@@ -112,7 +112,6 @@ Internet connectivity was also verified from a Guest VLAN client.
 
 Result: PASS.
 
-### 3.8 ACL Security
 
 ### 3.8 ACL Security
 
@@ -140,8 +139,8 @@ Issues encountered during implementation and their corresponding solutions are d
 
 ## 5. Conclusion
 
-The implemented enterprise network successfully demonstrated VLAN segmentation, trunk connectivity, inter-VLAN routing, HSRP gateway redundancy, centralized DHCP and DNS services, and NAT/PAT operation.
+The implemented enterprise network successfully demonstrated VLAN segmentation, trunk connectivity, inter-VLAN routing, HSRP gateway redundancy, centralized DHCP and DNS services, NAT/PAT operation, and ACL-based traffic control.
 
-Access control policies were configured and partially verified through Guest VLAN testing.
+Access control policies were configured and verified across all six VLANs through connectivity testing and ACL inspection.
 
-Further testing of the remaining ACL policies and implementation of a web service remain outstanding.
+Implementation and testing of a web service remain outstanding.
