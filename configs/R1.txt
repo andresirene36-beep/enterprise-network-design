@@ -248,6 +248,12 @@ line vty 0 4
 !
 no scheduler allocate
 !
+! Static SSH Port Forwarding
+ip nat inside source static tcp 192.168.40.2 22 192.168.122.50 2201 extendable
+ip nat inside source static tcp 192.168.40.3 22 192.168.122.50 2202 extendable
+ip nat inside source static tcp 192.168.40.4 22 192.168.122.50 2211 extendable
+ip nat inside source static tcp 192.168.40.5 22 192.168.122.50 2212 extendable
+ip nat inside source static tcp 192.168.50.10 22 192.168.122.50 2222 extendable
 end
 
 R-1#
