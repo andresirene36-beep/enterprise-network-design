@@ -15,7 +15,7 @@ The network must support the following requirements:
 5. **Domain Name Resolution:** Provide DNS services through a centralized DNS server.
 6. **Internet Connectivity:** Provide external network access through NAT/PAT.
 7. **Traffic Control:** Apply ACLs to restrict or permit traffic according to security policies.
-8. **Network Management:** Provide a dedicated management VLAN.
+8. **Network Management:** Provide a dedicated management VLAN (VLAN 40) for network management activities.
 
 ## 3. Network Segmentation Requirements
 

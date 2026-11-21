@@ -31,11 +31,14 @@ Six VLANs are implemented to logically separate departmental traffic:
 
 Each VLAN uses a dedicated /24 IPv4 subnet.
 
+
 ## 4. Routing Architecture
 
 Inter-VLAN routing is implemented using router subinterfaces with IEEE 802.1Q encapsulation.
 
 R1 and R2 provide routing for the departmental VLANs. HSRP is configured to provide virtual default gateways and gateway redundancy.
+
+R1 is configured with a higher HSRP priority and operates as the Active router, while R2 operates as the Standby router under normal operating conditions.
 
 The virtual gateway address for each VLAN uses the `.1` address of its respective subnet.
 

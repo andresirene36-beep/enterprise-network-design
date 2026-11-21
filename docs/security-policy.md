@@ -46,7 +46,7 @@ Access to network management services is controlled through configured ACL polic
 
 ## 6. Guest Network Isolation
 
-Guest traffic is controlled using ACLs to limit access to internal organizational resources according to the configured guest policy.
+Guest VLAN 60 is restricted from accessing internal organizational networks using router-based ACLs. Permitted external network access is maintained through NAT/PAT.
 
 ## 7. Security Verification
 

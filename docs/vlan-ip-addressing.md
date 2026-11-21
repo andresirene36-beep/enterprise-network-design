@@ -33,7 +33,7 @@ Each router uses a dedicated IP address on the corresponding VLAN subinterface.
 | Service | IP Address | VLAN |
 |---|---|---|
 | Ubuntu DHCP/DNS Server | 192.168.50.10 | 50 |
-| Web Server | 192.168.50.20 | 50 |
+| Planned Web Server | 192.168.50.20 | 50 |
 
 ## 5. DHCP Allocation
 
