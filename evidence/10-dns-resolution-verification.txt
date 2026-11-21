@@ -1,0 +1,5 @@
+PC1> ping ns1.company.test
+ns1.company.test resolved to 192.168.50.10
+
+PC1> ping www.company.test
+www.company.test resolved to 192.168.50.20

@@ -1,0 +1,38 @@
+R-1#show ip nat statistics
+Total active translations: 14 (5 static, 9 dynamic; 14 extended)
+Peak translations: 19, occurred 01:41:31 ago
+Outside interfaces:
+  GigabitEthernet0/1
+Inside interfaces: 
+  GigabitEthernet0/0, GigabitEthernet0/0.10, GigabitEthernet0/0.20
+  GigabitEthernet0/0.30, GigabitEthernet0/0.40, GigabitEthernet0/0.50
+  GigabitEthernet0/0.60
+Hits: 2111  Misses: 0
+CEF Translated packets: 1812, CEF Punted packets: 167
+Expired translations: 114
+Dynamic mappings:
+-- Inside Source
+[Id: 1] access-list 1 interface GigabitEthernet0/1 refcount 8
+
+Total doors: 0
+Appl doors: 0
+Normal doors: 0
+Queued Packets: 0
+R-1#show ip nat translations
+Pro Inside global         Inside local          Outside local         Outside global
+tcp 192.168.122.50:2201   192.168.40.2:22       192.168.122.1:52778   192.168.122.1:52778
+tcp 192.168.122.50:2201   192.168.40.2:22       ---                   ---
+tcp 192.168.122.50:2202   192.168.40.3:22       ---                   ---
+tcp 192.168.122.50:2211   192.168.40.4:22       ---                   ---
+tcp 192.168.122.50:2212   192.168.40.5:22       ---                   ---
+tcp 192.168.122.50:2222   192.168.50.10:22      ---                   ---
+udp 192.168.122.50:36528  192.168.50.10:36528   8.8.8.8:53            8.8.8.8:53
+udp 192.168.122.50:41282  192.168.50.10:41282   8.8.8.8:53            8.8.8.8:53
+udp 192.168.122.50:42415  192.168.50.10:42415   8.8.8.8:53            8.8.8.8:53
+udp 192.168.122.50:43056  192.168.50.10:43056   8.8.8.8:53            8.8.8.8:53
+udp 192.168.122.50:45242  192.168.50.10:45242   8.8.8.8:53            8.8.8.8:53
+udp 192.168.122.50:46315  192.168.50.10:46315   8.8.8.8:53            8.8.8.8:53
+udp 192.168.122.50:54550  192.168.50.10:54550   8.8.8.8:53            8.8.8.8:53
+udp 192.168.122.50:59530  192.168.50.10:59530   8.8.8.8:53            8.8.8.8:53
+R-1#
+

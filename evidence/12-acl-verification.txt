@@ -1,0 +1,499 @@
+R-1#show ip interface
+GigabitEthernet0/0 is up, line protocol is up
+  Internet protocol processing disabled
+GigabitEthernet0/0.10 is up, line protocol is up
+  Internet address is 192.168.10.2/24
+  Broadcast address is 255.255.255.255
+  Address determined by non-volatile memory
+  MTU is 1500 bytes
+  Helper address is 192.168.50.10
+  Directed broadcast forwarding is disabled
+  Multicast reserved groups joined: 224.0.0.2
+  Outgoing access list is not set
+  Inbound  access list is ADMINISTRATION
+  Proxy ARP is enabled
+  Local Proxy ARP is disabled
+  Security level is default
+  Split horizon is enabled
+  ICMP redirects are always sent
+  ICMP unreachables are never sent
+  ICMP mask replies are never sent
+  IP fast switching is enabled
+  IP fast switching on the same interface is enabled
+  IP Flow switching is disabled
+  IP CEF switching is enabled
+  IP CEF switching turbo vector
+  IP multicast fast switching is enabled
+  IP multicast distributed fast switching is disabled
+  IP route-cache flags are Fast, CEF
+  Router Discovery is disabled
+  IP output packet accounting is disabled
+  IP access violation accounting is disabled
+  TCP/IP header compression is disabled
+  RTP/IP header compression is disabled
+  Policy routing is disabled
+  Network address translation is enabled, interface in domain inside
+  BGP Policy Mapping is disabled
+  Input features: Common Flow Table, Stateful Inspection, Virtual Fragment Reassembly, Access List, Virtual Fragment Reassembly After IPSec Decryption, MCI Check
+  Output features: NAT Inside, Common Flow Table, Stateful Inspection, NAT ALG proxy
+  IPv4 WCCP Redirect outbound is disabled
+  IPv4 WCCP Redirect inbound is disabled
+  IPv4 WCCP Redirect exclude is disabled
+GigabitEthernet0/0.20 is up, line protocol is up
+  Internet address is 192.168.20.2/24
+  Broadcast address is 255.255.255.255
+  Address determined by non-volatile memory
+  MTU is 1500 bytes
+  Helper address is 192.168.50.10
+  Directed broadcast forwarding is disabled
+  Multicast reserved groups joined: 224.0.0.2
+  Outgoing access list is not set
+  Inbound  access list is FINANCE
+  Proxy ARP is enabled
+  Local Proxy ARP is disabled
+  Security level is default
+  Split horizon is enabled
+  ICMP redirects are always sent
+  ICMP unreachables are never sent
+  ICMP mask replies are never sent
+  IP fast switching is enabled
+  IP fast switching on the same interface is enabled
+  IP Flow switching is disabled
+  IP CEF switching is enabled
+  IP CEF switching turbo vector
+  IP multicast fast switching is enabled
+  IP multicast distributed fast switching is disabled
+  IP route-cache flags are Fast, CEF
+  Router Discovery is disabled
+  IP output packet accounting is disabled
+  IP access violation accounting is disabled
+  TCP/IP header compression is disabled
+  RTP/IP header compression is disabled
+  Policy routing is disabled
+  Network address translation is enabled, interface in domain inside
+  BGP Policy Mapping is disabled
+  Input features: Common Flow Table, Stateful Inspection, Virtual Fragment Reassembly, Access List, Virtual Fragment Reassembly After IPSec Decryption, MCI Check
+  Output features: NAT Inside, Common Flow Table, Stateful Inspection, NAT ALG proxy
+  IPv4 WCCP Redirect outbound is disabled
+  IPv4 WCCP Redirect inbound is disabled
+  IPv4 WCCP Redirect exclude is disabled
+GigabitEthernet0/0.30 is up, line protocol is up
+  Internet address is 192.168.30.2/24
+  Broadcast address is 255.255.255.255
+  Address determined by non-volatile memory
+  MTU is 1500 bytes
+  Helper address is 192.168.50.10
+  Directed broadcast forwarding is disabled
+  Multicast reserved groups joined: 224.0.0.2
+  Outgoing access list is not set
+  Inbound  access list is IT_POLICY
+  Proxy ARP is enabled
+  Local Proxy ARP is disabled
+  Security level is default
+  Split horizon is enabled
+  ICMP redirects are always sent
+  ICMP unreachables are never sent
+  ICMP mask replies are never sent
+  IP fast switching is enabled
+  IP fast switching on the same interface is enabled
+  IP Flow switching is disabled
+  IP CEF switching is enabled
+  IP CEF switching turbo vector
+  IP multicast fast switching is enabled
+  IP multicast distributed fast switching is disabled
+  IP route-cache flags are Fast, CEF
+  Router Discovery is disabled
+  IP output packet accounting is disabled
+  IP access violation accounting is disabled
+  TCP/IP header compression is disabled
+  RTP/IP header compression is disabled
+  Policy routing is disabled
+  Network address translation is enabled, interface in domain inside
+  BGP Policy Mapping is disabled
+  Input features: Common Flow Table, Stateful Inspection, Virtual Fragment Reassembly, Access List, Virtual Fragment Reassembly After IPSec Decryption, MCI Check
+  Output features: NAT Inside, Common Flow Table, Stateful Inspection, NAT ALG proxy
+  IPv4 WCCP Redirect outbound is disabled
+  IPv4 WCCP Redirect inbound is disabled
+  IPv4 WCCP Redirect exclude is disabled
+GigabitEthernet0/0.40 is up, line protocol is up
+  Internet address is 192.168.40.2/24
+  Broadcast address is 255.255.255.255
+  Address determined by non-volatile memory
+  MTU is 1500 bytes
+  Helper address is 192.168.50.10
+  Directed broadcast forwarding is disabled
+  Multicast reserved groups joined: 224.0.0.2
+  Outgoing access list is not set
+  Inbound  access list is MANAGEMENT
+  Proxy ARP is enabled
+  Local Proxy ARP is disabled
+  Security level is default
+  Split horizon is enabled
+  ICMP redirects are always sent
+  ICMP unreachables are never sent
+  ICMP mask replies are never sent
+  IP fast switching is enabled
+  IP fast switching on the same interface is enabled
+  IP Flow switching is disabled
+  IP CEF switching is enabled
+  IP CEF switching turbo vector
+  IP multicast fast switching is enabled
+  IP multicast distributed fast switching is disabled
+  IP route-cache flags are Fast, CEF
+  Router Discovery is disabled
+  IP output packet accounting is disabled
+  IP access violation accounting is disabled
+  TCP/IP header compression is disabled
+  RTP/IP header compression is disabled
+  Policy routing is disabled
+  Network address translation is enabled, interface in domain inside
+  BGP Policy Mapping is disabled
+  Input features: Common Flow Table, Stateful Inspection, Virtual Fragment Reassembly, Access List, Virtual Fragment Reassembly After IPSec Decryption, MCI Check
+  Output features: NAT Inside, Common Flow Table, Stateful Inspection, NAT ALG proxy
+  IPv4 WCCP Redirect outbound is disabled
+  IPv4 WCCP Redirect inbound is disabled
+  IPv4 WCCP Redirect exclude is disabled
+GigabitEthernet0/0.50 is up, line protocol is up
+  Internet address is 192.168.50.2/24
+  Broadcast address is 255.255.255.255
+  Address determined by non-volatile memory
+  MTU is 1500 bytes
+  Helper address is not set
+  Directed broadcast forwarding is disabled
+  Multicast reserved groups joined: 224.0.0.2
+  Outgoing access list is not set
+  Inbound  access list is SERVERS
+  Proxy ARP is enabled
+  Local Proxy ARP is disabled
+  Security level is default
+  Split horizon is enabled
+  ICMP redirects are always sent
+  ICMP unreachables are never sent
+  ICMP mask replies are never sent
+  IP fast switching is enabled
+  IP fast switching on the same interface is enabled
+  IP Flow switching is disabled
+  IP CEF switching is enabled
+  IP CEF switching turbo vector
+  IP multicast fast switching is enabled
+  IP multicast distributed fast switching is disabled
+  IP route-cache flags are Fast, CEF
+  Router Discovery is disabled
+  IP output packet accounting is disabled
+  IP access violation accounting is disabled
+  TCP/IP header compression is disabled
+  RTP/IP header compression is disabled
+  Policy routing is disabled
+  Network address translation is enabled, interface in domain inside
+  BGP Policy Mapping is disabled
+  Input features: Common Flow Table, Stateful Inspection, Virtual Fragment Reassembly, Access List, Virtual Fragment Reassembly After IPSec Decryption, MCI Check
+  Output features: NAT Inside, Common Flow Table, Stateful Inspection, NAT ALG proxy
+  IPv4 WCCP Redirect outbound is disabled
+  IPv4 WCCP Redirect inbound is disabled
+  IPv4 WCCP Redirect exclude is disabled
+GigabitEthernet0/0.60 is up, line protocol is up
+  Internet address is 192.168.60.2/24
+  Broadcast address is 255.255.255.255
+  Address determined by non-volatile memory
+  MTU is 1500 bytes
+  Helper address is 192.168.50.10
+  Directed broadcast forwarding is disabled
+  Multicast reserved groups joined: 224.0.0.2
+  Outgoing access list is not set
+  Inbound  access list is GUESTS
+  Proxy ARP is enabled
+  Local Proxy ARP is disabled
+  Security level is default
+  Split horizon is enabled
+  ICMP redirects are always sent
+  ICMP unreachables are never sent
+  ICMP mask replies are never sent
+  IP fast switching is enabled
+  IP fast switching on the same interface is enabled
+  IP Flow switching is disabled
+  IP CEF switching is enabled
+  IP CEF switching turbo vector
+  IP multicast fast switching is enabled
+  IP multicast distributed fast switching is disabled
+  IP route-cache flags are Fast, CEF
+  Router Discovery is disabled
+  IP output packet accounting is disabled
+  IP access violation accounting is disabled
+  TCP/IP header compression is disabled
+  RTP/IP header compression is disabled
+  Policy routing is disabled
+  Network address translation is enabled, interface in domain inside
+  BGP Policy Mapping is disabled
+  Input features: Common Flow Table, Stateful Inspection, Virtual Fragment Reassembly, Access List, Virtual Fragment Reassembly After IPSec Decryption, MCI Check
+  Output features: NAT Inside, Common Flow Table, Stateful Inspection, NAT ALG proxy
+  IPv4 WCCP Redirect outbound is disabled
+  IPv4 WCCP Redirect inbound is disabled
+  IPv4 WCCP Redirect exclude is disabled
+GigabitEthernet0/1 is up, line protocol is up
+  Internet address is 192.168.122.50/24
+  Broadcast address is 255.255.255.255
+  Address determined by non-volatile memory
+  MTU is 1500 bytes
+  Helper address is not set
+  Directed broadcast forwarding is disabled
+  Outgoing access list is not set
+  Inbound  access list is not set
+  Proxy ARP is enabled
+  Local Proxy ARP is disabled
+  Security level is default
+  Split horizon is enabled
+  ICMP redirects are always sent
+  ICMP unreachables are always sent
+  ICMP mask replies are never sent
+  IP fast switching is enabled
+  IP fast switching on the same interface is disabled
+  IP Flow switching is disabled
+  IP CEF switching is enabled
+  IP CEF switching turbo vector
+  IP multicast fast switching is enabled
+  IP multicast distributed fast switching is disabled
+  IP route-cache flags are Fast, CEF
+  Router Discovery is disabled
+  IP output packet accounting is disabled
+  IP access violation accounting is disabled
+  TCP/IP header compression is disabled
+  RTP/IP header compression is disabled
+  Policy routing is disabled
+  Network address translation is enabled, interface in domain outside
+  BGP Policy Mapping is disabled
+  Input features: Common Flow Table, Stateful Inspection, Virtual Fragment Reassembly, Virtual Fragment Reassembly After IPSec Decryption, NAT Outside, MCI Check
+  Output features: Post-routing NAT Outside, Common Flow Table, Stateful Inspection, NAT ALG proxy
+  IPv4 WCCP Redirect outbound is disabled
+  IPv4 WCCP Redirect inbound is disabled
+  IPv4 WCCP Redirect exclude is disabled
+GigabitEthernet0/2 is down, line protocol is down
+  Internet address is 10.10.10.1/24
+  Broadcast address is 255.255.255.255
+  Address determined by non-volatile memory
+  MTU is 1500 bytes
+  Helper address is not set
+  Directed broadcast forwarding is disabled
+  Outgoing access list is not set
+  Inbound  access list is not set
+  Proxy ARP is enabled
+  Local Proxy ARP is disabled
+  Security level is default
+  Split horizon is enabled
+  ICMP redirects are always sent
+  ICMP unreachables are always sent
+  ICMP mask replies are never sent
+  IP fast switching is enabled
+  IP fast switching on the same interface is disabled
+  IP Flow switching is disabled
+  IP CEF switching is enabled
+  IP CEF switching turbo vector
+  IP multicast fast switching is enabled
+  IP multicast distributed fast switching is disabled
+  IP route-cache flags are Fast, CEF
+  Router Discovery is disabled
+  IP output packet accounting is disabled
+  IP access violation accounting is disabled
+  TCP/IP header compression is disabled
+  RTP/IP header compression is disabled
+  Policy routing is disabled
+  Network address translation is disabled
+  BGP Policy Mapping is disabled
+  Input features: MCI Check
+  IPv4 WCCP Redirect outbound is disabled
+  IPv4 WCCP Redirect inbound is disabled
+  IPv4 WCCP Redirect exclude is disabled
+GigabitEthernet0/3 is administratively down, line protocol is down
+  Internet protocol processing disabled
+NVI0 is up, line protocol is up
+  Internet address will be negotiated using IPCP
+  Broadcast address is 255.255.255.255
+  MTU is 1514 bytes
+  Helper address is not set
+  Directed broadcast forwarding is disabled
+  Outgoing access list is not set
+  Inbound  access list is not set
+  Proxy ARP is enabled
+  Local Proxy ARP is disabled
+  Security level is default
+  Split horizon is enabled
+  ICMP redirects are always sent
+  ICMP unreachables are always sent
+  ICMP mask replies are never sent
+  IP fast switching is disabled
+  IP fast switching on the same interface is disabled
+  IP Flow switching is disabled
+  IP CEF switching is disabled
+  IP Null turbo vector
+  IP Null turbo vector
+  IP multicast fast switching is enabled
+  IP multicast distributed fast switching is disabled
+  IP route-cache flags are Fast, CEF
+  Router Discovery is disabled
+  IP output packet accounting is disabled
+  IP access violation accounting is disabled
+  TCP/IP header compression is disabled
+  RTP/IP header compression is disabled
+  Policy routing is disabled
+  Network address translation is disabled
+  BGP Policy Mapping is disabled
+  Input features: MCI Check
+  Output features: Post-routing NAT NVI Output
+  IPv4 WCCP Redirect outbound is disabled
+  IPv4 WCCP Redirect inbound is disabled
+  IPv4 WCCP Redirect exclude is disabled
+R-1#show running-config | section interface GigabitEthernet0/0
+interface GigabitEthernet0/0
+ no ip address
+ ip nat inside
+ ip virtual-reassembly in
+ duplex full
+ speed auto
+ media-type rj45
+interface GigabitEthernet0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.10.2 255.255.255.0
+ ip access-group ADMINISTRATION in
+ ip helper-address 192.168.50.10
+ no ip unreachables
+ ip nat inside
+ ip virtual-reassembly in
+ standby 10 ip 192.168.10.1
+ standby 10 priority 110
+ standby 10 preempt
+interface GigabitEthernet0/0.20
+ encapsulation dot1Q 20
+ ip address 192.168.20.2 255.255.255.0
+ ip access-group FINANCE in
+ ip helper-address 192.168.50.10
+ no ip unreachables
+ ip nat inside
+ ip virtual-reassembly in
+ standby 20 ip 192.168.20.1
+ standby 20 priority 110
+ standby 20 preempt
+interface GigabitEthernet0/0.30
+ encapsulation dot1Q 30
+ ip address 192.168.30.2 255.255.255.0
+ ip access-group IT_POLICY in
+ ip helper-address 192.168.50.10
+ no ip unreachables
+ ip nat inside
+ ip virtual-reassembly in
+ standby 30 ip 192.168.30.1
+ standby 30 priority 110
+ standby 30 preempt
+interface GigabitEthernet0/0.40
+ encapsulation dot1Q 40
+ ip address 192.168.40.2 255.255.255.0
+ ip access-group MANAGEMENT in
+ ip helper-address 192.168.50.10
+ no ip unreachables
+ ip nat inside
+ ip virtual-reassembly in
+ standby 40 ip 192.168.40.1
+ standby 40 priority 110
+ standby 40 preempt
+interface GigabitEthernet0/0.50
+ encapsulation dot1Q 50
+ ip address 192.168.50.2 255.255.255.0
+ ip access-group SERVERS in
+ no ip unreachables
+ ip nat inside
+ ip virtual-reassembly in
+ standby 50 ip 192.168.50.1
+ standby 50 priority 110
+ standby 50 preempt
+interface GigabitEthernet0/0.60
+ encapsulation dot1Q 60
+ ip address 192.168.60.2 255.255.255.0
+ ip access-group GUESTS in
+ ip helper-address 192.168.50.10
+ no ip unreachables
+ ip nat inside
+ ip virtual-reassembly in
+ standby 60 ip 192.168.60.1
+ standby 60 priority 110
+ standby 60 preempt
+R-1#show running-config | include access-group
+ ip access-group ADMINISTRATION in
+ ip access-group FINANCE in
+ ip access-group IT_POLICY in
+ ip access-group MANAGEMENT in
+ ip access-group SERVERS in
+ ip access-group GUESTS in
+R-1#show ip access-lists
+Standard IP access list 1
+    10 permit 192.168.0.0, wildcard bits 0.0.255.255 (112 matches)
+Extended IP access list ADMINISTRATION
+    10 permit ip 192.168.10.0 0.0.0.255 192.168.10.0 0.0.0.255
+    20 permit udp any eq bootpc any eq bootps (10 matches)
+    30 permit udp 192.168.10.0 0.0.0.255 host 192.168.50.10 eq domain (2 matches)
+    40 permit icmp 192.168.10.0 0.0.0.255 192.168.30.0 0.0.0.255 echo-reply
+    50 permit tcp 192.168.10.0 0.0.0.255 host 192.168.50.10 eq domain
+    60 permit tcp 192.168.10.0 0.0.0.255 host 192.168.50.20 eq 443
+    70 permit tcp 192.168.10.0 0.0.0.255 host 192.168.50.20 eq 81
+    80 deny ip 192.168.10.0 0.0.0.255 192.168.0.0 0.0.255.255 (15 matches)
+    90 permit ip 192.168.10.0 0.0.0.255 any (2552 matches)
+    100 deny ip any any
+Extended IP access list FINANCE
+    10 permit ip 192.168.20.0 0.0.0.255 192.168.20.0 0.0.0.255
+    20 permit udp 192.168.20.0 0.0.0.255 host 192.168.50.10 eq domain
+    30 permit tcp 192.168.20.0 0.0.0.255 host 192.168.50.10 eq domain
+    40 permit icmp 192.168.20.0 0.0.0.255 192.168.30.0 0.0.0.255 echo-reply
+    50 permit udp any eq bootpc any eq bootps (2 matches)
+    60 deny ip 192.168.20.0 0.0.0.255 192.168.0.0 0.0.255.255 (5 matches)
+    70 permit ip 192.168.20.0 0.0.0.255 any (2551 matches)
+    80 deny ip any any
+Extended IP access list GUESTS
+    10 permit udp any eq bootpc any eq bootps
+    20 permit udp 192.168.60.0 0.0.0.255 host 192.168.50.10 eq domain
+    30 permit tcp 192.168.60.0 0.0.0.255 host 192.168.50.10 eq domain
+    40 permit icmp 192.168.60.0 0.0.0.255 192.168.30.0 0.0.0.255 echo-reply
+    50 deny ip 192.168.60.0 0.0.0.255 192.168.0.0 0.0.255.255
+    60 permit ip 192.168.60.0 0.0.0.255 any (2540 matches)
+Extended IP access list IT_POLICY
+    10 permit udp any eq bootpc any eq bootps
+    20 permit udp 192.168.30.0 0.0.0.255 host 192.168.50.10 eq domain
+    30 permit tcp 192.168.30.0 0.0.0.255 host 192.168.50.10 eq domain
+    40 permit icmp 192.168.30.0 0.0.0.255 192.168.0.0 0.0.0.255
+    50 permit tcp 192.168.30.0 0.0.0.255 192.168.40.0 0.0.0.255 eq 22
+    60 permit udp 192.168.30.0 0.0.0.255 192.168.0.0 0.0.0.255 eq snmp
+    70 permit tcp 192.168.30.0 0.0.0.255 192.168.50.0 0.0.0.255 eq 22
+    80 permit tcp 192.168.30.0 0.0.0.255 host 192.168.30.2 eq 22
+    90 permit tcp 192.168.30.0 0.0.0.255 host 192.168.30.3 eq 22
+    100 permit ip 192.168.30.0 0.0.0.255 192.168.0.0 0.0.255.255
+    110 permit ip 192.168.30.0 0.0.0.255 any (2555 matches)
+Extended IP access list MANAGEMENT
+    10 permit tcp 192.168.40.0 0.0.0.255 eq 22 host 192.168.122.1 established (405 matches)
+    20 permit udp any eq bootpc any eq bootps
+    30 permit udp 192.168.40.0 0.0.0.255 host 192.168.50.10 eq domain
+    40 permit tcp 192.168.40.0 0.0.0.255 host 192.168.50.10 eq domain
+    50 permit icmp 192.168.40.0 0.0.0.255 192.168.30.0 0.0.0.255 echo-reply
+    60 permit ip 192.168.40.0 0.0.0.255 192.168.30.0 0.0.0.255
+    70 deny ip 192.168.40.0 0.0.0.255 192.168.0.0 0.0.255.255
+    80 permit ip 192.168.40.0 0.0.0.255 any (2549 matches)
+    90 deny ip any any
+Extended IP access list SERVERS
+    10 permit tcp host 192.168.50.10 eq 22 host 192.168.122.1 established (106 matches)
+    20 permit ip 192.168.50.0 0.0.0.255 192.168.50.0 0.0.0.255
+    30 permit udp host 192.168.50.10 eq bootps host 192.168.10.2 eq bootps (10 matches)
+    40 permit udp host 192.168.50.10 eq bootps host 192.168.10.3 eq bootps
+    50 permit icmp 192.168.50.0 0.0.0.255 192.168.30.0 0.0.0.255 echo-reply
+    60 permit udp host 192.168.50.10 eq bootps host 192.168.20.2 eq bootps (2 matches)
+    70 permit udp host 192.168.50.10 eq bootps host 192.168.20.3 eq bootps
+    80 permit udp host 192.168.50.10 eq bootps host 192.168.30.2 eq bootps
+    90 permit udp host 192.168.50.10 eq bootps host 192.168.30.3 eq bootps
+    100 permit udp host 192.168.50.10 eq domain any (2 matches)
+    110 permit tcp host 192.168.50.10 eq domain any established
+    120 permit tcp host 192.168.50.20 eq 443 any established
+    130 permit tcp host 192.168.50.20 eq 81 any established
+    140 permit udp host 192.168.50.10 eq bootps host 192.168.40.2 eq bootps
+    150 permit udp host 192.168.50.10 eq bootps host 192.168.40.3 eq bootps
+    160 permit udp host 192.168.50.10 eq bootps host 192.168.60.2 eq bootps
+    170 permit udp host 192.168.50.10 eq bootps host 192.168.60.3 eq bootps
+    180 deny ip 192.168.50.0 0.0.0.255 192.168.0.0 0.0.255.255
+    190 permit ip 192.168.50.0 0.0.0.255 any (3081 matches)
+    200 deny ip any any
+R-1#
+
+THIS APPLIES SAME TO R2

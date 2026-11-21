@@ -1,0 +1,16 @@
+R-1#show ip int brief
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         unassigned      YES NVRAM  up                    up      
+GigabitEthernet0/0.10      192.168.10.2    YES NVRAM  up                    up      
+GigabitEthernet0/0.20      192.168.20.2    YES NVRAM  up                    up      
+GigabitEthernet0/0.30      192.168.30.2    YES NVRAM  up                    up      
+GigabitEthernet0/0.40      192.168.40.2    YES NVRAM  up                    up      
+GigabitEthernet0/0.50      192.168.50.2    YES NVRAM  up                    up      
+GigabitEthernet0/0.60      192.168.60.2    YES NVRAM  up                    up      
+GigabitEthernet0/1         192.168.122.50  YES NVRAM  up                    up      
+GigabitEthernet0/2         10.10.10.1      YES NVRAM  down                  down    
+GigabitEthernet0/3         unassigned      YES NVRAM  administratively down down    
+NVI0                       unassigned      YES unset  up                    up      
+R-1#
+
+
