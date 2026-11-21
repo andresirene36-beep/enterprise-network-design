@@ -124,7 +124,7 @@ Additional resources:
 
 - `configs/` – Router, switch, and Ubuntu Server configuration backups.
 - `diagrams/` – Network topology diagrams.
-- `evidence/` – Testing screenshots and verification evidence.
+- `evidence/` – Network verification outputs and test records.
 - `troubleshooting/` – Troubleshooting records and solutions.
 
 ## 8. Project Status
@@ -136,9 +136,12 @@ Verified functionality includes:
 - VLAN configuration and trunk connectivity.
 - Inter-VLAN routing.
 - HSRP gateway redundancy and failover.
-- Centralized DHCP and DNS services.
-- NAT/PAT and static SSH port forwarding.
-- ACL configuration and connectivity testing across all six VLANs.
+- Centralized DHCP address allocation.
+- DNS name resolution.
+- NAT/PAT translation.
+- ACL configuration and application across all six VLANs.
+- Network connectivity testing and troubleshooting.
+
+Static SSH port forwarding rules have been configured.
 
 Web server deployment and HTTP service testing have not yet been implemented.
-
